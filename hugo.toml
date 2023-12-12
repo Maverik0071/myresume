@@ -1,0 +1,19 @@
+baseURL = '/'
+languageCode = 'en-us'
+title = 'William Sewell'
+themesDir = "themes"
+theme = "hugo-whisper-theme"
+
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
+pygmentsUseClasses = true
+
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "About"
+url = "/About/"
+weight = 2
