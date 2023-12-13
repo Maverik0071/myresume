@@ -17,3 +17,11 @@ weight = 1
 name = "About"
 url = "/About/"
 weight = 2
+
+[imaging]
+  bgColor = '#ffffff'
+  hint = 'photo'
+  quality = 75
+  resampleFilter = 'box'
+
+
