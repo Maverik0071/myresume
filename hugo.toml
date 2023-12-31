@@ -24,8 +24,56 @@ weight = 2
   quality = 75
   resampleFilter = 'box'
 
-[[link.body]]
+[params]
+  commentoURL = "https://cdn.commento.io" # Replace if you use a custom domain
+
+[params.utterances]
+  repo = "" # https://utteranc.es/#heading-repository
+  issueTerm = "" # https://utteranc.es/#heading-mapping
+  label = "" # https://utteranc.es/#heading-issue-label
+  theme = "" # https://utteranc.es/#heading-theme
+
+[params.giscus] # https://giscus.app
+  repo = ""
+  repoID = ""
+  category = ""
+  categoryID = ""
+  mapping = ""
+  term = ""
+  strict = ""
+  reactionsEnabled = ""
+  emitMetadata = ""
+  inputPosition = ""
+  theme = ""
+  lang = ""
+  loading = ""
+
+[params.telegram] # https://comments.app/
+  siteID = ""
+  limit = ""
+  height = ""
+  color = ""
+  dislikes = ""
+  outlined = ""
+  colorful = ""
+  dark = ""
+
+[markup.highlight]
+style = "monokai"
 
 
-
-
+[[params.social]]
+  name = "Github"
+  icon = "fa fa-github fa-2x"
+  weight = 1
+  url = "https://github.com/johndoe/"
+[[params.social]]
+  name = "Gitlab"
+  icon = "fa fa-gitlab fa-2x"
+  weight = 2
+  url = "https://gitlab.com/johndoe/"
+[[params.social]]
+  name = "Twitter"
+  icon = "fa fa-twitter fa-2x"
+  weight = 3
+  url = "https://twitter.com/johndoe/"
